@@ -1,0 +1,45 @@
+{
+	"packages": [{
+		"name": "control_box",
+		"maintainer": "FabLab Brno Team",
+		"websiteURL": "https://github.com/fablab-brno/Universal-control-board",
+		"email": "info@fablabbrno.cz",
+		"help": {
+			"online": "https://github.com/fablab-brno/Universal-control-board"
+		},
+		"platforms": [{
+			"name": "Control Box",
+			"architecture": "samd",
+			"version": "1.0.0",
+			"category": "SAMD21",
+			"url": "https://github.com/fablab-brno/Universal-control-board/blob/master/control_box.zip",
+			"archiveFileName": "control_box.zip",
+			"checksum": "SHA-256:ebb8ad0aeb2093b7d48d7b6869f3919cf6e85a613a606d0a8328ed57d15ab18c",
+			"size": "954137",
+			"help": {
+				"online": "https://github.com/fablab-brno/Universal-control-board"
+			},
+			"boards": [{
+				"name": "Control Box SAMD21"
+			}],
+			"toolsDependencies": [{
+				"packager": "arduino",
+				"name": "arm-none-eabi-gcc",
+				"version": "4.8.3-2014q1"
+			}, {
+				"packager": "arduino",
+				"name": "bossac",
+				"version": "1.6.1-arduino"
+			}, {
+				"packager": "arduino",
+				"name": "openocd",
+				"version": "0.9.0-arduino"
+			}, {
+				"packager": "arduino",
+				"name": "CMSIS",
+				"version": "4.0.0-atmel"
+			}]
+		}],
+		"tools": []
+	}]
+}
